@@ -435,6 +435,196 @@ const animals = {
       "Educate about penguins",
       "Avoid disturbing colonies",
       "Donate to penguin conservation"
+    ],
+      cat: {
+    name: "Domestic Cat",
+    image: "images/cat.jpg",
+    population: "Over 600 million worldwide",
+    location: "Lives globally as pets and feral populations",
+    facts: [
+        "Cats can jump up to six times their body length.",
+        "A cat’s purr can promote healing and reduce stress.",
+        "Cats have 32 muscles in each ear.",
+        "The oldest known pet cat was found in a 9,500-year-old grave in Cyprus.",
+        "Cats spend 70% of their life sleeping.",
+        "They can make over 100 different vocal sounds."
+        "If your cat was named Micky you are very lucky and a beautiful person"
+    ],
+    howToHelp: [
+        "Adopt cats instead of buying from breeders.",
+        "Keep your cat indoors to protect wildlife.",
+        "Spay and neuter to reduce stray cat populations.",
+        "Donate old towels or blankets to shelters.",
+        "Pick up litter outdoors so wildlife stays safe.",
+        "Support TNR (trap-neuter-return) programs."
+    ],
+          platypus: {
+    name: "Platypus",
+    image: "images/platypus.jpg",
+    population: "Approx. 300,000 (varies by region)",
+    location: "Eastern Australia and Tasmania",
+    facts: [
+        "The platypus is one of the only mammals that lay eggs.",
+        "Males have venomous ankle spurs.",
+        "They hunt using electroreception in their bill.",
+        "Platypuses close their eyes and ears underwater.",
+        "Their fur is waterproof and traps warmth.",
+        "They store fat in their tails for survival."
+    ],
+    howToHelp: [
+        "Use less plastic to reduce river pollution.",
+        "Participate in local creek or river cleanups.",
+        "Support conservation groups protecting Australian waterways.",
+        "Avoid pouring chemicals down drains.",
+        "Report pollution you see in streams or rivers.",
+        "Support habitat restoration for wetlands."
+    ],
+              hippo: {
+    name: "Hippopotamus",
+    image: "images/hippo.jpg",
+    population: "Around 115,000–130,000",
+    location: "Sub-Saharan Africa",
+    facts: [
+        "Hippos secrete a natural sunblock called 'blood sweat'.",
+        "They can run up to 30 km/h on land.",
+        "Hippos spend up to 16 hours a day in water.",
+        "They can hold their breath for 5 minutes underwater.",
+        "Despite their size, they are great swimmers.",
+        "Their mouths can open nearly 180 degrees."
+    ],
+    howToHelp: [
+        "Avoid purchasing ivory or wildlife products.",
+        "Support anti-poaching conservation groups.",
+        "Reduce water waste to help river ecosystems.",
+        "Share awareness about illegal wildlife trade.",
+        "Donate to African wildlife rangers.",
+        "Recycle properly to reduce river pollution."
+    ],
+                  greatWhiteShark: {
+    name: "Great White Shark",
+    image: "images/greatwhite.jpg",
+    population: "Estimated 3,500",
+    location: "Worldwide coastal waters",
+    facts: [
+        "Great whites can detect one drop of blood in 25 gallons of water.",
+        "They can swim up to 25 mph.",
+        "Great whites have around 300 teeth arranged in rows.",
+        "They migrate thousands of miles per year.",
+        "They can leap fully out of the water (breaching).",
+        "They have special gel-filled organs to sense electrical fields."
+    ],
+    howToHelp: [
+        "Choose sustainable seafood to protect marine food webs.",
+        "Reduce single-use plastic to prevent ocean pollution.",
+        "Support shark conservation groups.",
+        "Learn and teach others about shark importance.",
+        "Avoid shark fin products.",
+        "Participate in beach cleanups."
+    ],
+                      giantPacificOctopus: {
+    name: "Giant Pacific Octopus",
+    image: "images/giantoctopus.jpg",
+    population: "Unknown (stable)",
+    location: "North Pacific Ocean",
+    facts: [
+        "They have three hearts.",
+        "Each arm can act independently with its own mini-brain.",
+        "They can fit through any hole larger than their beak.",
+        "They are masters of camouflage.",
+        "They can regenerate lost arms.",
+        "They are extremely intelligent problem-solvers."
+    ],
+    howToHelp: [
+        "Avoid products with microplastics.",
+        "Reduce seafood consumption of octopus species.",
+        "Use reef-safe sunscreen when swimming.",
+        "Support ocean protection foundations.",
+        "Recycle and dispose of waste responsibly.",
+        "Participate in marine habitat cleanups."
+    ],
+                          clownfish: {
+    name: "Clownfish",
+    image: "images/clownfish.jpg",
+    population: "Stable in the wild",
+    location: "Warm waters of the Indian and Pacific Oceans",
+    facts: [
+        "Clownfish live symbiotically with sea anemones.",
+        "All clownfish are born male; some turn female.",
+        "They communicate with popping and clicking sounds.",
+        "Their mucus protects them from anemone stings.",
+        "There are 30 known species.",
+        "They lay eggs on flat surfaces near their host anemone."
+    ],
+    howToHelp: [
+        "Never touch coral reefs.",
+        "Avoid buying wild-caught reef fish.",
+        "Choose reef-safe sunscreen.",
+        "Reduce plastic pollution.",
+        "Support reef restoration organizations.",
+        "Educate others about reef conservation."
+    ],
+                              harborSeal: {
+    name: "Harbor Seal",
+    image: "images/harborseal.jpg",
+    population: "Approximately 500,000",
+    location: "Coastal waters of the Northern Hemisphere",
+    facts: [
+        "Harbor seals can dive up to 1,500 feet.",
+        "They sleep on land and in water.",
+        "Their whiskers detect vibrations in water.",
+        "Pups can swim minutes after birth.",
+        "They can hold their breath for 30 minutes.",
+        "Each seal has unique spot patterns."
+    ],
+    howToHelp: [
+        "Keep distance from seals on beaches.",
+        "Never feed marine wildlife.",
+        "Reduce plastic waste.",
+        "Support ocean sanctuaries.",
+        "Participate in beach cleanups.",
+        "Report entangled or injured seals."
+    ],
+                                  pufferfish: {
+    name: "Pufferfish",
+    image: "images/pufferfish.jpg",
+    population: "Varies by species",
+    location: "Warm coastal waters",
+    facts: [
+        "Pufferfish inflate to appear larger to predators.",
+        "They contain tetrodotoxin, a deadly poison.",
+        "Some species can change color.",
+        "They have strong beaks to crush shells.",
+        "There are over 120 species.",
+        "They are surprisingly good swimmers."
+    ],
+    howToHelp: [
+        "Avoid buying dried or preserved pufferfish products.",
+        "Reduce plastic waste that affects ocean health.",
+        "Support marine protected areas.",
+        "Help reduce chemical runoff into waterways.",
+        "Choose sustainable seafood.",
+        "Spread awareness of coral reef protection."
+    ],
+                                      axolotl: {
+    name: "Axolotl",
+    image: "images/axolotl.jpg",
+    population: "Less than 1,000 in the wild (critically endangered)",
+    location: "Xochimilco canals, Mexico",
+    facts: [
+        "Axolotls can regenerate limbs, organs, and parts of their brain.",
+        "They remain in their juvenile form their entire life (neotenic).",
+        "They have feathery external gills.",
+        "They can regenerate their spinal cord.",
+        "Wild axolotls are extremely rare.",
+        "They come in many color morphs such as leucistic and golden."
+    ],
+    howToHelp: [
+        "Avoid polluting waterways.",
+        "Support conservation of Mexico's Xochimilco wetlands.",
+        "Never release pet axolotls into the wild.",
+        "Educate others about this endangered species.",
+        "Support habitat restoration projects.",
+        "Reduce fertilizer use in gardens to prevent water contamination."
     ]
   }
 };
@@ -471,4 +661,5 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
