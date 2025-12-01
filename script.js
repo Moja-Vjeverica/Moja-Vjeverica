@@ -435,7 +435,8 @@ const animals = {
       "Educate about penguins",
       "Avoid disturbing colonies",
       "Donate to penguin conservation"
-    ],
+    ]
+          },
 
   "Cat": {
     image: "images/cat.jpg",
@@ -733,6 +734,7 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
 
