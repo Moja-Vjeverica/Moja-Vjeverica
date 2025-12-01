@@ -436,8 +436,7 @@ const animals = {
       "Avoid disturbing colonies",
       "Donate to penguin conservation"
     ],
-      cat: {
-    name: "Domestic Cat",
+      "Cat": {
     image: "images/cat.jpg",
     population: "Over 600 million worldwide",
     location: "Lives globally as pets and feral populations",
@@ -458,8 +457,7 @@ const animals = {
         "Pick up litter outdoors so wildlife stays safe.",
         "Support TNR (trap-neuter-return) programs."
     ],
-          platypus: {
-    name: "Platypus",
+          "Platypus": {
     image: "images/platypus.jpg",
     population: "Approx. 300,000 (varies by region)",
     location: "Eastern Australia and Tasmania",
@@ -479,8 +477,7 @@ const animals = {
         "Report pollution you see in streams or rivers.",
         "Support habitat restoration for wetlands."
     ],
-              hippo: {
-    name: "Hippopotamus",
+             "Hippopotamus": {
     image: "images/hippo.jpg",
     population: "Around 115,000–130,000",
     location: "Sub-Saharan Africa",
@@ -521,8 +518,7 @@ const animals = {
         "Avoid shark fin products.",
         "Participate in beach cleanups."
     ],
-                      giantPacificOctopus: {
-    name: "Giant Pacific Octopus",
+                     "Giant Pacific Octopus": {
     image: "images/giantoctopus.jpg",
     population: "Unknown (stable)",
     location: "North Pacific Ocean",
@@ -542,8 +538,7 @@ const animals = {
         "Recycle and dispose of waste responsibly.",
         "Participate in marine habitat cleanups."
     ],
-                          clownfish: {
-    name: "Clownfish",
+                         "Clownfish": {
     image: "images/clownfish.jpg",
     population: "Stable in the wild",
     location: "Warm waters of the Indian and Pacific Oceans",
@@ -563,8 +558,7 @@ const animals = {
         "Support reef restoration organizations.",
         "Educate others about reef conservation."
     ],
-                              harborSeal: {
-    name: "Harbor Seal",
+                             "Harbor Seal": {
     image: "images/harborseal.jpg",
     population: "Approximately 500,000",
     location: "Coastal waters of the Northern Hemisphere",
@@ -584,8 +578,7 @@ const animals = {
         "Participate in beach cleanups.",
         "Report entangled or injured seals."
     ],
-                                  pufferfish: {
-    name: "Pufferfish",
+                                  "Pufferfish": {
     image: "images/pufferfish.jpg",
     population: "Varies by species",
     location: "Warm coastal waters",
@@ -605,8 +598,7 @@ const animals = {
         "Choose sustainable seafood.",
         "Spread awareness of coral reef protection."
     ],
-                                      axolotl: {
-    name: "Axolotl",
+                                     "Axolotl": {
     image: "images/axolotl.jpg",
     population: "Less than 1,000 in the wild (critically endangered)",
     location: "Xochimilco canals, Mexico",
@@ -661,5 +653,6 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
