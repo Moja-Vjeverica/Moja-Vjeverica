@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>💖</title>
 <link rel="stylesheet" href="style.css">
+
 <style>
 /* ================= DAILY NOTE BUTTON PULSE ================= */
 #dailyNoteBtn {
@@ -36,29 +37,68 @@
     50% { box-shadow: 0 6px 14px rgba(255, 51, 153, 0.6); }
     100% { box-shadow: 0 4px 10px rgba(255, 51, 153, 0.4); }
 }
+
+/* Animal info styling */
+#animalInfo img {
+    width: 260px;
+    border-radius: 14px;
+    margin-top: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#animalInfo {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background: #ffe6f2;
+    border-radius: 16px;
+    display: none;
+}
+
+#animalInfo h2 {
+    color: #ff3399;
+    margin-bottom: 10px;
+}
 </style>
 </head>
+
 <body>
 <header>
     <h1>💖 Za Moja Vjeverica</h1>
 </header>
 
+<!-- DAILY MESSAGE -->
 <div class="section">
     <p id="dailyMessage">Welcome! Check back every day for a new little note.</p>
     <button id="dailyNoteBtn" onclick="newMessage()">Show Today's Note</button>
 </div>
 
+<!-- COUNTDOWN -->
 <div class="section">
     <p>Countdown to Fiji 🌴✈️</p>
     <p id="countdown">Loading...</p>
 </div>
 
+<!-- ANIMAL DROPDOWN & DISPLAY -->
 <div class="section">
     <p>Select an Animal to Learn More 🐾</p>
+
     <select id="animalSelect">
         <option value="">--Select an Animal--</option>
     </select>
-    <div id="animalInfo"></div>
+
+    <div id="animalInfo">
+        <h2 id="animalName"></h2>
+        <img id="animalImage" src="" alt="">
+        <p><strong>Location:</strong> <span id="animalLocation"></span></p>
+        <p><strong>Population:</strong> <span id="animalPopulation"></span></p>
+        
+        <h3>Cool Facts</h3>
+        <ul id="animalFacts"></ul>
+
+        <h3>How You Can Help</h3>
+        <ul id="animalHelp"></ul>
+    </div>
 </div>
 
 <footer>
@@ -68,3 +108,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
