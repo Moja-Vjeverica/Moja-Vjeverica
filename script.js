@@ -37,7 +37,7 @@ updateCountdown();
 
 // =================== ANIMAL DATA ===================
 const animals = {
-  "Tiger": {
+  Tiger: {
     image: "images/tiger.jpg",
     scientificName: "Panthera tigris",
     population: "Approx. 3,900 wild individuals",
@@ -62,7 +62,8 @@ const animals = {
       "Donate to anti-poaching groups"
     ]
   },
-  "Lion": {
+
+  Lion: {
     image: "images/lion.jpg",
     scientificName: "Panthera leo",
     population: "Approx. 20,000–25,000 wild individuals",
@@ -87,7 +88,8 @@ const animals = {
       "Donate to lion protection organizations"
     ]
   },
-  "Giant Panda": {
+
+  GiantPanda: {
     image: "images/panda.jpg",
     scientificName: "Ailuropoda melanoleuca",
     population: "Approx. 2,000 wild individuals",
@@ -112,7 +114,8 @@ const animals = {
       "Reduce habitat destruction"
     ]
   },
-  "Koala": {
+
+  Koala: {
     image: "images/koala.jpg",
     scientificName: "Phascolarctos cinereus",
     population: "Approx. 80,000",
@@ -137,7 +140,8 @@ const animals = {
       "Avoid deforestation products"
     ]
   },
-  "Kangaroo": {
+
+  Kangaroo: {
     image: "images/kangaroo.jpg",
     scientificName: "Macropus",
     population: "Approx. 50 million",
@@ -162,7 +166,8 @@ const animals = {
       "Donate to kangaroo conservation programs"
     ]
   },
-  "Giraffe": {
+
+  Giraffe: {
     image: "images/giraffe.jpg",
     scientificName: "Giraffa camelopardalis",
     population: "Approx. 117,000",
@@ -187,7 +192,8 @@ const animals = {
       "Reduce water waste impacting ecosystems"
     ]
   },
-  "Cheetah": {
+
+  Cheetah: {
     image: "images/cheetah.jpg",
     scientificName: "Acinonyx jubatus",
     population: "Approx. 6,700",
@@ -212,7 +218,8 @@ const animals = {
       "Adopt a cheetah through programs"
     ]
   },
-  "Sloth": {
+
+  Sloth: {
     image: "images/sloth.jpg",
     scientificName: "Folivora",
     population: "Varies by species",
@@ -237,7 +244,8 @@ const animals = {
       "Donate to sloth rescues"
     ]
   },
-  "Orangutan": {
+
+  Orangutan: {
     image: "images/orangutan.jpg",
     scientificName: "Pongo pygmaeus / abelii",
     population: "Approx. 104,700",
@@ -262,7 +270,8 @@ const animals = {
       "Donate to orangutan organizations"
     ]
   },
-  "Sea Turtle": {
+
+  SeaTurtle: {
     image: "images/sea_turtle.jpg",
     scientificName: "Chelonioidea",
     population: "Varies; many endangered",
@@ -287,7 +296,8 @@ const animals = {
       "Donate to turtle conservation"
     ]
   },
-  "Wolf": {
+
+  Wolf: {
     image: "images/wolf.jpg",
     scientificName: "Canis lupus",
     population: "Approx. 200,000",
@@ -312,7 +322,8 @@ const animals = {
       "Donate to wolf organizations"
     ]
   },
-  "Dolphin": {
+
+  Dolphin: {
     image: "images/dolphin.jpg",
     scientificName: "Delphinidae",
     population: "Varies by species",
@@ -337,7 +348,8 @@ const animals = {
       "Donate to marine wildlife orgs"
     ]
   },
-  "Owl": {
+
+  Owl: {
     image: "images/owl.jpg",
     scientificName: "Strigiformes",
     population: "Varies by species",
@@ -362,7 +374,8 @@ const animals = {
       "Support wildlife orgs"
     ]
   },
-  "Eagle": {
+
+  Eagle: {
     image: "images/eagle.jpg",
     scientificName: "Accipitridae",
     population: "Varies by species",
@@ -387,7 +400,8 @@ const animals = {
       "Donate to raptor orgs"
     ]
   },
-  "Camel": {
+
+  Camel: {
     image: "images/camel.jpg",
     scientificName: "Camelus dromedarius / bactrianus",
     population: "Dromedary ~14M; Bactrian ~1.1M",
@@ -412,7 +426,8 @@ const animals = {
       "Avoid products harming desert ecosystems"
     ]
   },
-  "Penguin": {
+
+  Penguin: {
     image: "images/penguin.jpg",
     scientificName: "Spheniscidae",
     population: "Varies; millions",
@@ -436,9 +451,9 @@ const animals = {
       "Avoid disturbing colonies",
       "Donate to penguin conservation"
     ]
-          },
+  },
 
-  "Cat": {
+  Cat: {
     image: "images/cat.jpg",
     scientificName: "Felis catus",
     population: "Over 600 million worldwide",
@@ -465,7 +480,7 @@ const animals = {
     ]
   },
 
-  "Platypus": {
+  Platypus: {
     image: "images/platypus.jpg",
     scientificName: "Ornithorhynchus anatinus",
     population: "Around 300,000 (varies by region)",
@@ -491,7 +506,7 @@ const animals = {
     ]
   },
 
-  "Hippopotamus": {
+  Hippopotamus: {
     image: "images/hippo.jpg",
     scientificName: "Hippopotamus amphibius",
     population: "115,000–130,000",
@@ -517,7 +532,7 @@ const animals = {
     ]
   },
 
-  "GreatWhiteShark": {
+  GreatWhiteShark: {
     image: "images/greatwhite.jpg",
     scientificName: "Carcharodon carcharias",
     population: "Around 3,500",
@@ -543,7 +558,7 @@ const animals = {
     ]
   },
 
-  "GiantPacificOctopus": {
+  GiantPacificOctopus: {
     image: "images/giantoctopus.jpg",
     scientificName: "Enteroctopus dofleini",
     population: "Unknown, generally stable",
@@ -569,7 +584,7 @@ const animals = {
     ]
   },
 
-  "Clownfish": {
+  Clownfish: {
     image: "images/clownfish.jpg",
     scientificName: "Amphiprioninae",
     population: "Stable",
@@ -595,7 +610,7 @@ const animals = {
     ]
   },
 
-  "HarborSeal": {
+  HarborSeal: {
     image: "images/harborseal.jpg",
     scientificName: "Phoca vitulina",
     population: "Around 500,000",
@@ -621,7 +636,7 @@ const animals = {
     ]
   },
 
-  "Pufferfish": {
+  Pufferfish: {
     image: "images/pufferfish.jpg",
     scientificName: "Tetraodontidae",
     population: "Varies by species",
@@ -647,7 +662,7 @@ const animals = {
     ]
   },
 
-  "Axolotl": {
+  Axolotl: {
     image: "images/axolotl.jpg",
     scientificName: "Ambystoma mexicanum",
     population: "Less than 1,000 in the wild",
@@ -673,7 +688,7 @@ const animals = {
     ]
   },
 
-  "BlueTang": {
+  BlueTang: {
     image: "images/blue_tang.jpg",
     scientificName: "Paracanthurus hepatus",
     population: "Stable (not officially measured)",
@@ -698,7 +713,6 @@ const animals = {
       "Support reef restoration groups."
     ]
   }
-
 };
 
 
@@ -734,6 +748,7 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
 
