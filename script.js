@@ -617,7 +617,27 @@ const animals = {
         "Educate others about this endangered species.",
         "Support habitat restoration projects.",
         "Reduce fertilizer use in gardens to prevent water contamination."
-    ]
+    ],
+                                         "Blue Tang": {
+        image: "images/blue_tang.jpg",
+        location: "Indo-Pacific reefs",
+        population: "Not officially measured; stable",
+        facts: [
+            "Blue tangs can change color depending on mood.",
+            "Their tail spine is sharp and venomous.",
+            "They are extremely fast swimmers.",
+            "Blue tangs sleep inside coral crevices.",
+            "They eat algae, helping coral reefs survive.",
+            "Dory from Finding Nemo is a Pacific blue tang."
+        ],
+        help: [
+            "Never buy wild-caught reef fish.",
+            "Avoid touching coral reefs when swimming.",
+            "Use reef-safe sunscreen.",
+            "Reduce plastic use—most ocean trash harms reef fish.",
+            "Recycle cans and bottles to reduce ocean waste.",
+            "Support coral reef restoration groups."
+        ]
   }
 };
 
@@ -653,6 +673,7 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
 
