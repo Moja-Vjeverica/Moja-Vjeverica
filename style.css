@@ -1,0 +1,101 @@
+/* ================= BODY ================= */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ffe6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ================= HEADER ================= */
+header {
+    margin: 50px 0 30px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ff3399;
+    font-size: 2.5em;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    background: #ffd6e8;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ================= DAILY MESSAGE ================= */
+#dailyMessage {
+    font-size: 1.2em;
+    color: #cc0066;
+    margin-top: 20px;
+}
+
+/* ================= COUNTDOWN ================= */
+#countdown {
+    font-size: 1.4em;
+    color: #ff1a75;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ================= SELECT DROPDOWN ================= */
+select {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ff99cc;
+    background: #ffe6f0;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* ================= ANIMAL INFO ================= */
+#animalInfo img {
+    margin-top: 15px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ff99cc;
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #99004d;
+}
+
+/* ================= BUTTON ================= */
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #ff66b3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3399;
+}
+
