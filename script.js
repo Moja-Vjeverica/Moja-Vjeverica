@@ -38,7 +38,7 @@ const messages = [
     "Your smile brightens my day every time.",
     "Every moment with you is special.",
     "I love you more than words can say.",
-    "Counting down the days until our Fiji trip together! 🌴"
+    "Counting down the days until our Fiji trip together! 🌴",
 ];
 
 function newMessage() {
@@ -777,6 +777,7 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
 
