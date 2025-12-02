@@ -3,7 +3,36 @@ const messages = [
     "Hope your day is as lovely as you!",
     "Just a reminder: you are amazing.",
     "Thinking of you 💕",
-    "Another day, another smile for you.",
+   "I hope you know how proud I am of you — genuinely.",
+    "You make everything feel a little lighter just by being yourself.",
+    "You’re such a naturally kind person, it’s one of my favorite things about you.",
+    "You handle life so well, even when you don’t realise it.",
+    "You deserve good things, and I love seeing them happen for you.",
+    "You’re doing amazing — like actually amazing.",
+    "You have this really warm energy that makes people feel comfortable.",
+    "I hope you realise how impressive you are without even trying.",
+    "You’re so easy to be proud of.",
+    "You’re genuinely such a good person — it shows in everything you do.",
+    "Your growth is something I notice all the time. It’s really admirable.",
+    "You make things better just by being in them.",
+    "You’re honestly so capable — I love seeing you win.",
+    "You have such a beautiful way of handling things.",
+    "You’ve come so far as a person, and it’s inspiring.",
+    "You deserve every bit of happiness coming your way.",
+    "You’re such a thoughtful, sincere person — it never goes unnoticed.",
+    "You make the people around you feel lucky. Including me.",
+    "You’re someone who just naturally shines without forcing it.",
+    "I love how genuine you are; it’s rare and it’s special.",
+    "You’re stronger than you realise — in the best way.",
+    "You’re the kind of person people feel proud to know.",
+    "Your kindness is something I really admire about you.",
+    "You make things feel calm just by being yourself.",
+    "You have such a good heart — it really shows.",
+    "I hope you know how much you’re appreciated.",
+    "You’re doing so well in life, even the little things count.",
+    "You deserve love and good days and people who treat you right.",
+    "You make the world around you a little softer.",
+    "You’re someone worth celebrating — every single day."
     "You make everything better simply by being you.",
     "Can’t wait for our adventures together!",
     "Your smile brightens my day every time.",
@@ -748,6 +777,7 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
 
