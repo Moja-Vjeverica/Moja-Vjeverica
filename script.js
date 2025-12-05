@@ -32,7 +32,7 @@ const messages = [
     "You’re doing so well in life, even the little things count.",
     "You deserve love and good days and people who treat you right.",
     "You make the world around you a little softer.",
-    "You’re someone worth celebrating — every single day."
+    "You’re someone worth celebrating — every single day.",
     "You make everything better simply by being you.",
     "Can’t wait for our adventures together!",
     "Your smile brightens my day every time.",
@@ -777,6 +777,7 @@ select.addEventListener("change", () => {
         <ul>${animal.howToHelp.map(f => `<li>${f}</li>`).join('')}</ul>
     `;
 });
+
 
 
 
